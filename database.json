@@ -1,0 +1,10 @@
+{
+    "dev": {
+    "driver": "mysql",
+    "host": "localhost",
+    "port": "",
+    "user": "root",
+    "password": "",
+    "database": "tacolizador"
+    }
+   }
