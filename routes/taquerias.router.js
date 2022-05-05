@@ -26,7 +26,7 @@ router.get('/:id',async function(req,res,next){
     }
    });
 
-
+//crear datos
    router.post('/',async function(req,res,next){
     try {
         res.json(await service.create(req.body));
@@ -39,7 +39,7 @@ router.get('/:id',async function(req,res,next){
 
 });
 
-
+//ediitar
 router.put('/:id',async function(req,res,next){
     try {
         res.json(await service.update(

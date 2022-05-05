@@ -2,7 +2,8 @@ const express = require('express')
 const app = express()
 const port = 3007
 const routerTaueria=require('./routes/taquerias.router');
-
+const cors = require('cors');
+app.use(cors())
 app.use(express.json());
 app.use(
   express.urlencoded({
